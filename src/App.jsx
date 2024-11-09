@@ -42,7 +42,7 @@ function App() {
         ))}
       </div>
       {selectedCard && (
-        <div className="fixed  flex items-center justify-center bg-black bg-opacity-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
           <div className="bg-white p-6 rounded-lg w-11/12 md:w-1/2 lg:w-1/3">
             <img src={selectedCard.image} alt={selectedCard.title} className="w-full h-48 object-cover rounded-md mb-4" />
             <h2 className="text-2xl font-semibold mb-2">{selectedCard.title}</h2>
